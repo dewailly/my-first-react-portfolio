@@ -1,15 +1,23 @@
-@import "./styles/layout";
-@import './styles/navbar';
-@import './styles/typography';
+$primary-color: #ffd700;
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
 }
 
-body {
-    color: #a4acc4;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 1.2rem;
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+input,
+textarea {
+  font-family: "Helvetica Neue";
 }
