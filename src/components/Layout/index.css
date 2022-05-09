@@ -67,8 +67,8 @@
   left: -10px;
 }
 
-.container.contact-page .text-zone h1:before,
-.container.about-page .text-zone h1:before {
+.container.contact-page .text-zone h1::before,
+.container.about-page .text-zone h1::before {
   content: '<h1>';
   font-family: 'La Belle Aurore', cursive;
   color: #ffd700;
@@ -80,8 +80,8 @@
   line-height: 18px;
 }
 
-.container.contact-page .text-zone h1:after,
-.container.about-page .text-zone h1:after {
+.container.contact-page .text-zone h1::after,
+.container.about-page .text-zone h1::after {
   content: '</h1>';
   font-family: 'La Belle Aurore', cursive;
   color: #ffd700;
